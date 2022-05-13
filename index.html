@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=El+Messiri:wght@500&display=swap"
+        rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="CSS/normaliz.css">
+    <link rel="stylesheet" href="CSS/media.css">
+    <link rel="stylesheet" href="CSS/Style.css">
+    <title>مدونة محمد أبو رمان | جدران</title>
+</head>
+<body>
+    <section class="topBar">
+        <div class="container">
+            <div class="topBarContent">
+                <div class="brandName text-right">
+                    <h3>جدران <span> مدونة محمد أبو رمان </span></h3>
+                </div>
+                <div class="socialIcon text-left">
+                    <i class="fab fa-facebook-f fa-lg"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </div>
+            <div class="clearFix"></div>
+        </div>
+    </section>
+
+    <nav class="nav">
+        <div class="container">
+            <div class="navbar" id="navbar">
+                    <div class="brand hidden">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                <a href="#" class="active">الرئيسية</a>
+                <a href="#">عن الكاتب</a>
+                <a href="#">الاصدارات</a>
+                <a href="#">دراسات</a>
+                <a href="#">المقابلات</a>
+                <a href="#">المقالات</a>
+                <a href="#">يوميات</a>
+                <a href="#">خواطر</a>
+                <a href="#">آراء و أفكار</a>
+                <a href="#">اتصل بالكاتب</a>
+                <a href="javascript:void(0);" class="icon" id="iconClose" onclick="myFunction()">
+                    <div class="btn not-active">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="about">
+        <div class="container">
+            <div class="aboutContent">
+                <div class="slider">
+                    <div class="slide fade">
+                        <img src="Images/s00_.jpg" >
+                        <div class="overlayslider">
+                            <h1 class="slidetext">في استذكار المفكر الكبير مراد هوفمان</h1>
+                        </div>
+                    </div>
+                    <div class="slide fade">
+                        <img src="Images/s01.jpg" >
+                        <div class="overlayslider">
+                            <h1 class="slidetext">
+                            "فتوى" بالجزية على الحنابلة ولقاء لـ"رؤوس أهل النار" بمجلس وزاري.. الخلاف العلمي بين جناية التعصب وتوظيف
+                            السياسة
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="slide fade">
+                        <img src="Images/s02.jpg" >
+                        <div class="overlayslider">
+                           <h1 class="slidetext">دراسة: نصف جهاديي أوروبا الغربية الدواعش لهم ماضٍ جنائي</h1>
+                        </div>
+                    </div>
+                    <div class="slide fade">
+                        <img src="Images/s04.jpg">
+                        <div class="overlayslider">
+                           <h1 class="slidetext"> الشباب العربي.. "جيل الخلاص"؟</h1>
+                        </div>
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <div class="auther">
+                    <img src="Images/about_opt.jpg" alt="" style="width:100%">
+                    <div class="text">
+                            باحث في مركز الدراسات الاستراتيجية بالجامعة الأردنية وكاتب في جريدة الغد الأردنية، متخصص في الحركات الإسلامية وشؤون
+                            الإصلاح السياسي، حاصل على الدكتوراه في فلسفة العلوم السياسية من جامعة القاهرة.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="LastArticals">
+        <div class="container">
+            <h2 class="h2Header"> آخر المقالات </h2>
+            <div class="articals">
+                <div class="artical">
+                    <img src="Images/articalsImages/arti01.jpg" style="width:100%">
+                    <div class="artiText">
+                        <h4>"فتوى" بالجزية على الحنابلة ولقاء لـ"رؤوس أهل النار" بمجلس وزاري.. الخلاف العلمي بين جناية التعصب وتوظيف السياسة</h4>
+                        <p class="artiDate"><i class="fas fa-calendar-alt"></i> 23 يناير 2020</p>
+                        <p>
+                            يحاول البعض إبراز الإقصاء بين التيارات والمذاهب الإسلامية على أنّه الأصل، وأن روح الإنسانية والودّ المتبادل والتسامح كان
+                            هامشاً؛ والحقيقةُ أن تقرير...
+                        </p>
+                    </div>
+                </div>
+                <div class="artical">
+                    <img src="Images/articalsImages/arti02.jpg" alt="" style="width:100%">
+                    <div class="artiText">
+                        <h4>الشباب العربي.. "جيل الخلاص"؟</h4>
+                        <p class="artiDate"><i class="fas fa-calendar-alt"></i>14 يناير 2020</p>
+                        <p>
+                            سبق أن ناقش الكاتب في مقالات سابقة، في "العربي الجديد"، دراسات وكتبا صدرت خلال الأعوام القليلة الماضية عن موضوع الشباب
+                            في العالم العربي الذي أصبح...
+                        </p>
+                    </div>
+                </div>
+                <div class="artical">
+                    <img src="Images/articalsImages/arti03.jpg" alt="" style="width:100%">
+                    <div class="artiText">
+                        <h4>قبل أن يملك "الجوكر" الشارع العربي!</h4>
+                        <p class="artiDate"><i class="fas fa-calendar-alt"></i>16 ديسمبر 2019</p>
+                        <p>
+                            من الطريف أن يحاول شطرٌ من الإعلام العربي إلقاء التهمة على "فيلم الجوكر" لإدانة الاحتجاجات والمظاهرات التي عمّت العديد
+                            من الشوارع العربية، بوصف الفيلم...
+                        </p>
+                    </div>
+                </div>
+                <div class="artical">
+                    <img src="Images/articalsImages/arti04.jpg" alt="" style="width:100%">
+                    <div class="artiText">
+                        <h4>إعادة قراءة "الربيع العربي"!</h4>
+                        <p class="artiDate"><i class="fas fa-calendar-alt"></i>02 ديسمبر 2019</p>
+                        <p>
+                            محمد أبو رمان ما تزال نخبة واسعة من المثقفين والسياسيين العرب، وبالرغم من مرور قرابة تسعة أعوام على إرهاصات الاحتجاجات
+                            العربية، أسيرة الأحكام المعلّبة...
+                        </p>
+                    </div>
+                </div>
+                <div class="artical">
+                    <img src="Images/articalsImages/arti05.jpg" alt="" style="width:100%">
+                    <div class="artiText">
+                        <h4>الدولة والإسلاميون جدليات الاحتواءوالإقصاء: ما قبل الربيع العربي وما بعده</h4>
+                        <p class="artiDate"><i class="fas fa-calendar-alt"></i>21 نوفمبر 2019</p>
+                        <p>
+                            تتنوع خارطة الإسلاميين في الأردن، بين تيارات واتجاهات متعددة ومتباينة في علاقتها مع الدولة من جهة، وفي أيديولوجياتها
+                            ومواقفها من العملية السياسية من...
+                        </p>
+                    </div>
+                </div>
+                <div class="artical">
+                    <img src="Images/articalsImages/arti06.jpg" alt="" style="width:100%">
+                    <div class="artiText">
+                        <h4>الربيع العربي في نسخته الثانية</h4>
+                        <p class="artiDate"><i class="fas fa-calendar-alt"></i>18 نوفمبر 2019</p>
+                        <p>رضوان زيادة- العربي الجديد 18 نوفمبر 2019 اكتشف الشباب العربي قوة صوته وتأثير مواطنيته، عبر التظاهرات الضخمة التي ملأت
+                        الشوارع في السودان والجزائر، ثم...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="posts">
+        <div class="container">
+            <h2 class="h2Header"> الاصدارات و المنشورات </h2>
+            <div class="postSlider">
+                
+                <div class="box">
+                    <div class="slideImage">
+                        <img src="Images/postImages/post01.jpg" alt="">
+                    </div>
+                    <div class="detailsBox">
+                        <a href="#">الصراع على السلفية</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="slideImage">
+                        <img src="Images/postImages/post02.png" alt="">
+                    </div>
+                    <div class="detailsBox">
+                        <a href="#">أنا سلفي</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="slideImage">
+                        <img src="Images/postImages/post03.jpg" alt="">
+                    </div>
+                    <div class="detailsBox">
+                        <a href="#">من الخلافة إلى الدولة المدنية: الإسلاميون الشباب في الأردن وتحولات الربيع العربي</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="slideImage">
+                        <img src="Images/postImages/post04.jpg" alt="">
+                    </div>
+                    <div class="detailsBox">
+                        <a href="#">آفاق الإسلام السياسي في إقليم مضطرب</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="slideImage">
+                        <img src="Images/postImages/post05.jpg" alt="">
+                    </div>
+                    <div class="detailsBox">
+                        <a href="#">كتاب ما بعد الإسلام السياسي: مرحلة جديدة أم أوهام أيديولوجية</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="slideImage">
+                        <img src="Images/postImages/post06.jpg" alt="">
+                    </div>
+                    <div class="detailsBox">
+                        <a href="#">عاشقات الشهادة</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="slideImage">
+                        <img src="Images/postImages/post07.jpg" alt="">
+                    </div>
+                    <div class="detailsBox">
+                        <a href="#">تحميل كتاب "عاشقات الشهادة: تشكلات الجهادية النسوية من القاعدة إلى الدولة الإسلامية</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="slideImage">
+                        <img src="Images/postImages/post08.jpg" alt="">
+                    </div>
+                    <div class="detailsBox">
+                        <a href="#">قراءة في كتاب "الصراع على السلفية: قراءة في الأيديولوجيات والخلافات وخارطة الانتشار"</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="slideImage">
+                        <img src="Images/postImages/post09.jpg" alt="">
+                    </div>
+                    <div class="detailsBox">
+                        <a href="#">الحل الإسلامي في الأردن: الإسلاميون والدولة ورهانات الديمقراطية والأم</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="slideImage">
+                        <img src="Images/postImages/post10.jpg" alt="">
+                    </div>
+                    <div class="detailsBox">
+                        <a href="#">السلفيون والربيع العربي: سؤال الدين والديمقراطية في السياسة العربية</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="slideImage">
+                        <img src="Images/postImages/post11.jpg" alt="">
+                    </div>
+                    <div class="detailsBox">
+                        <a href="#"> بين حاكمية الله و سلطة الأمة </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="slideImage">
+                        <img src="Images/postImages/post12.jpg" alt="">
+                    </div>
+                    <div class="detailsBox">
+                        <a href="#"> تنظيم" الدولة الاسلامية" </a>
+                    </div>
+                </div> 
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="interviews">
+        <div class="container">
+        <div class="videos">
+            <h2>المقابلات</h2>
+            <div class="interviewVideos">
+                <div class="video">
+                    <div class="videoOverlay text-center">
+                        <i class="far fa-play-circle fa-3x"></i>
+                        <h3>محاضرة داعش الظاهرة والحقيقة</h3>
+                    </div>
+                    <img src="Images/Interview/v03.jpg" alt="">
+                </div>
+                <div class="video">
+                    <div class="videoOverlay text-center">
+                        <i class="far fa-play-circle fa-3x"></i>
+                        <h3>لماذا يستهدف تنظيم الدولة الاسلامية تجمعا للمصلين</h3>
+                    </div>
+                    <img src="Images/Interview/v02.jpg" alt="">
+                </div>
+                <div class="video">
+                    <div class="videoOverlay text-center">
+                        <i class="far fa-play-circle fa-3x"></i>
+                        <h3>حفل توقيع كتاب "أنا سلفيٌ"</h3>
+                    </div>
+                    <img src="Images/Interview/v01.jpg" alt="">
+                </div>
+                <div class="video">
+                    <div class="videoOverlay text-center">
+                        <i class="far fa-play-circle fa-3x"></i>
+                        <h3>داعش .. اليوم التالي</h3>
+                    </div>
+                    <img src="Images/Interview/v06.jpg" alt="">
+                </div>
+                <div class="video">
+                    <div class="videoOverlay text-center">
+                        <i class="far fa-play-circle fa-3x"></i>
+                        <h3>حلقة ساعة حرّة عشية الانتخاباتا لأردنية</h3>
+                    </div>
+                    <img src="Images/Interview/v05.jpg" alt="">
+                </div>
+                <div class="video">
+                    <div class="videoOverlay text-center">
+                        <i class="far fa-play-circle fa-3x"></i>
+                        <h3>الواقع العربي - الأردن وتنظيم الدولة وجها لوجه</h3>
+                    </div>
+                    <img src="Images/Interview/v03.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="ideas">
+        <div class="container">
+            <h2 class="h2Header"> آراء و أفكار </h2>
+            <div class="items">
+                <div class="itemBox">
+                    <img src="Images/ideas/01.jpg" alt="" style="width:100%">
+                    <div class="artiText">
+                        <h1>"ربيع الملاعب" في المغرب</h1>
+                        <p>علي أنوزلا</p>
+                        <p class="artiDate"><i class="fas fa-calendar-alt"></i> 27 نوفمبر 2019</p>
+                    </div>
+                </div>
+                <div class="itemBox">
+                    <img src="Images/ideas/02.jpg" alt="" style="width:100%">
+                    <div class="artiText">
+                        <h1>الشباب العربي: اللامبالاة، الإحباط والتغيير</h1>
+                        <p>محمد ابو رمان
+                        <p class="artiDate"><i class="fas fa-calendar-alt"></i> 18 نوفمبر 2019</p>
+                    </div>
+                </div>
+                <div class="itemBox">
+                    <img src="Images/ideas/03.jpg" alt="" style="width:100%">
+                    <div class="artiText">
+                        <h1>حين ينتفض العاديّون</h1>
+                        <p>خليل العناني</p>
+                        <p class="artiDate"><i class="fas fa-calendar-alt"></i> 18 نوفمبر 2019</p>
+                    </div>
+                </div>
+                <div class="itemBox">
+                    <img src="Images/ideas/04.jpg" alt="" style="width:100%">
+                    <div class="artiText">
+                        <h1>مقتل بائع الكتب وصور المثقف اليساري العربي</h1>
+                        <p>سعد رحيم</p>
+                        <p class="artiDate"><i class="fas fa-calendar-alt"></i> 26 أكتوبر 2017</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footerContent text-center">
+            <span>جمیع الحقوق محفوظة &copy; 2016 مطور بواسطة</span>
+            <a href="">
+                <img src="Images/sprintive-logo.svg" alt="">
+            </a>
+        </div>
+    </footer>
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous"></script>
+    <script src="JS/mainJs.js"></script>
+</body>
+</html>
